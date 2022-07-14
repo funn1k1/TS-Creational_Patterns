@@ -24,7 +24,7 @@ class ImageBuilder {
         return this;
     }
     addResolution(width, height) {
-        const isSome = this.resolutions.some((res) => res.width == width && height == height);
+        const isSome = this.resolutions.some((res) => res.width == width && res.height == height);
         if (!isSome) {
             this.resolutions.push({ width, height });
         }

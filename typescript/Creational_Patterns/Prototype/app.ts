@@ -16,7 +16,8 @@ class UserHistory implements Prototype<UserHistory> {
 }
 
 let user = new UserHistory('admin@admin.com', 'Eugene');
+console.log(user);
 let user2 = user.clone();
 user2.email = "user@user.com";
 console.log(user2); 
-console.log(user);
+console.log(user2);
