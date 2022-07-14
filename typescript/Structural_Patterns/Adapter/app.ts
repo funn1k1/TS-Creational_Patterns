@@ -7,8 +7,8 @@ class KvDatabase {
 }
 
 class PersistentDb {
-  savePersistent(_: Object) {
-
+  savePersistent(data: Object) {
+    console.log(data);
   }
 }
 
