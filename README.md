@@ -3,4 +3,9 @@
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Factory_Method added.
+- [x] Factory method added.
+- [x] Singleton added.
+- [x] Prototype added.
+- [x] Builder added.
+- [x] Bridge added.
+- [x] Facade added.
