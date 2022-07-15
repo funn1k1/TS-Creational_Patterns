@@ -15,7 +15,7 @@ class TelegramProvider implements IProvider {
     console.log('Disconnected Telegram');
   }
 
-  sendMessage(message: string): void {
+ sendMessage(message: string): void {
     console.log('Send a message: ' + message);
   }
 }
