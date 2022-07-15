@@ -8,7 +8,8 @@ class KvDatabase {
     }
 }
 class PersistentDb {
-    savePersistent(_) {
+    savePersistent(data) {
+        console.log(data);
     }
 }
 class PersistentDbAdapater extends KvDatabase {
