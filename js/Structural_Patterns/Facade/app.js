@@ -1,12 +1,12 @@
 "use strict";
-class Notify {
-    send(to, template) {
-        console.log(`Отправляю ${template} to: ${to}`);
-    }
-}
 class Log {
     log(message) {
         console.log(message);
+    }
+}
+class Notify {
+    send(to, template) {
+        console.log(`Отправляю ${template} to: ${to}`);
     }
 }
 class Template {

@@ -1,12 +1,12 @@
-class Notify {
-  send(to: string, template: string) {
-    console.log(`Отправляю ${template} to: ${to}`);
-  }
-}
-
 class Log {
   log(message: string) {
     console.log(message);
+  }
+}
+
+class Notify {
+  send(to: string, template: string) {
+    console.log(`Отправляю ${template} to: ${to}`);
   }
 }
 
