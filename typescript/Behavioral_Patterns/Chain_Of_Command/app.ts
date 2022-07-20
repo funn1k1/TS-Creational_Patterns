@@ -57,3 +57,4 @@ console.log(auth.handle({
   body: 'You\'re authrorized!'
 }))
 
+export {}

@@ -31,7 +31,7 @@ class EventHandler extends Mediated{
 class NotificationMediator implements Mediator{
   constructor(
     public notifications: Notifications,
-    public logger: Log,
+    public logger: Logger,
     public handler: EventHandler
   ) {}
 

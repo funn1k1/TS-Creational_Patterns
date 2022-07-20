@@ -1,5 +1,6 @@
 "use strict";
-class Log {
+Object.defineProperty(exports, "__esModule", { value: true });
+class Logger {
     log(message) {
         console.log(message);
     }
@@ -22,7 +23,7 @@ class Template {
 class NotificationFacade {
     constructor() {
         this.notify = new Notify();
-        this.logger = new Log();
+        this.logger = new Logger();
         this.template = new Template();
     }
     send(to, templateName) {

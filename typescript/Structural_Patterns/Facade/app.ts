@@ -1,4 +1,4 @@
-class Log {
+class Logger {
   log(message: string) {
     console.log(message);
   }
@@ -22,12 +22,12 @@ class Template {
 
 class NotificationFacade {
   private notify: Notify;
-  private logger: Log;
+  private logger: Logger;
   private template: Template;
 
   constructor() {
     this.notify = new Notify();
-    this.logger = new Log();
+    this.logger = new Logger();
     this.template = new Template();
   }
 
@@ -44,3 +44,5 @@ class NotificationFacade {
 
 const nf = new NotificationFacade();
 nf.send('admin@admin.com', 'other');
+
+export {}
