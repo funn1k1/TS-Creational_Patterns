@@ -21,3 +21,5 @@ let user2 = user.clone();
 user2.email = "user@user.com";
 console.log(user2); 
 console.log(user2);
+
+export {}
