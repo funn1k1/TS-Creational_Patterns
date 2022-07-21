@@ -45,9 +45,9 @@ class FacebookStrategy {
     }
 }
 const user = new User();
-user.googleToken = 'google';
+user.googleToken = 'some token';
 const auth = new Auth(new GoogleStrategy);
 console.log(auth.authUser(user));
 auth.setStrategy(new FacebookStrategy());
-user.facebookToken = 'facebook';
+user.facebookToken = 'some token';
 console.log(auth.authUser(user));
