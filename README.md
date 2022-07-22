@@ -15,3 +15,13 @@
    - [x] Adapter added.
    - [x] Proxy added.
    - [x] Composite added.
+   
+3. Behavioral Patterns
+   - [x] Chain of Command added.
+   - [x] Mediator added.
+   - [x] Command added.
+   - [x] State added.
+   - [x] Strategy added.
+   - [x] Iterator added.
+   - [x] Template Method.
+   - [x] Observer Method.
