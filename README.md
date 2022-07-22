@@ -23,5 +23,8 @@
    - [x] State added.
    - [x] Strategy added.
    - [x] Iterator added.
-   - [x] Template Method.
-   - [x] Observer Method.
+   - [x] Template added.
+   - [x] Observer added.
+
+> All the most popular patterns in Typescript were added.
+
